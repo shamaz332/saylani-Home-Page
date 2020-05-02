@@ -1,0 +1,87 @@
+.nav-1{
+    background-color: #316DC3 !important
+}
+.icons{
+    color: white !important;
+}
+.logo{
+    height: 80px;
+
+}
+.navcon{
+    margin: 0 14px 0 4px !important;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+ background:none;
+}
+
+@media only screen and (min-width: 1000px) {
+    li a.active{
+        background-color: #316DC3 !important;
+        border-radius: 20% !important;
+    }
+    li a:hover{
+        background-color: #316DC3;
+        border-radius: 20% !important;
+    }
+  }
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.news{
+    background-color:#316DC3 ;
+    color: white;
+    padding: 5px;
+}
+.jumbotron{
+    /* padding: 70px 30px 70px 30px; */
+    margin: 0px auto;
+    background: #316DC3;
+    color: floralwhite;
+}
+
+.holder { 
+    background-color:white;
+    width:300px;
+    height:250px;
+    overflow:hidden;
+    padding:10px;
+    font-family:Helvetica;
+  }
+  .holder .mask {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    width:300px;
+    height:240px;
+    overflow: hidden;
+  }
+  .holder ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    position: relative;
+  }
+  .holder ul li {
+    padding:10px 0px;
+  }
+  .holder ul li a {
+    color:darkred;
+    text-decoration:none;
+  }
+
+  .footer{
+    background-color: rgb(27, 27, 27);;
+}
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+    
+}
